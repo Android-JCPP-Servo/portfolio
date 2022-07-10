@@ -26,3 +26,7 @@ sup {
 .link {
     text-decoration: none;
 }
+
+.card {
+    border: none !important;
+}
