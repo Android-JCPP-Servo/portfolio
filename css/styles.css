@@ -6,6 +6,10 @@ nav {
     background-color: navy;
 }
 
+sup {
+    font-size: 8px;
+}
+
 #center-col {
     margin-top: 100px;
 }
@@ -16,4 +20,8 @@ nav {
     border-radius: 50%;
     width: 100%;
     height: auto;
+}
+
+.link {
+    text-decoration: none;
 }
