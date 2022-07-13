@@ -11,10 +11,6 @@ sup {
     font-size: 8px;
 }
 
-.center-col {
-    margin-top: 100px;
-}
-
 #andersen,
 #byui,
 #streamit {
@@ -23,10 +19,18 @@ sup {
     height: auto;
 }
 
+#readMore {
+    margin-top: 15px;
+}
+
 .link {
     text-decoration: none;
 }
 
 .card {
     border: none !important;
+}
+
+.center-col {
+    margin-top: 100px;
 }
