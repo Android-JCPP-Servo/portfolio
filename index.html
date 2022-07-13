@@ -18,7 +18,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white" href="https://www.linkedin.com/in/andersen-stewart-57547220b/" target="_blank">LinkedIn Profile</a>
@@ -26,10 +26,10 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Projects
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="https://cyberlandr.com" target="_blank">CyberLandr</a></li>
-
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="https://cyberlandr.com" target="_blank">CyberLandr</a></li>
+                        
                             <li><a class="dropdown-item" href="https://play.google.com/store/apps/details?id=com.team02.boma" target="_blank">BOMA! BMI Calculator</a></li>
 
                             <li><hr class="dropdown-divider"></li>
@@ -38,8 +38,8 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Certifications
-                    </a>
+                            Certifications
+                        </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li class="dropdown-item"><strong>Completed</strong></li>
                             <li><a class="dropdown-item" href="https://www.codecademy.com/profiles/Android_Servo/certificates/9a5bb1fc45b4281af1fffec93b0aaf05" target="_blank">CSS</a></li>
@@ -72,12 +72,17 @@
                         <h1>Andersen Stewart</h1>
                         <p>Howdy! Thank you so much for viewing my portfolio.</p>
                         <p>My name is Andersen Stewart, and I am currently a full-time student studying to become a programmer and web developer. All through my schooling careers, I have taken a strong interest in programming. In high school, I was in the Project Lead The Way (PLTW) program, which taught students several engineering principles. The engineering field that really caught my attention was Software Engineering.</p>
-                        <p>Now, in college, all I focus on is programming, especially Web Development and Design. My goal in the next five years is to become a certified Full-Stack Web Developer, so I can help people fulfill their goals digitally. I have already begun a course through <a href="https://www.codecademy.com/catalog" target="_blank" class="link">Codecademy</a>&copy; that offers certification in Full-Stack Web Development and other web-dev languages.</p>
-                        <p>I also want to become a good husband and father for my future family. I want to raise my children on good, wholesome principles, so they grow up to seek challenges, grow from experience, and help others do the same.</p>
-                        <p>When I'm not building a website, I thoroughly enjoy calisthenics, reading Brandon Sanderson novels or Calvin and Hobbes&copy; comics, and spending time with family. I also enjoy hanging out with friends on weekends. We always have something fun happening on Monday evenings.</p>
-                        <p>Thank you again for taking time to view my portfolio! Below, I have listed my educational and work experience as well as volunteer opportunities I have participated in. If you have any questions, please feel free to reach out!</p>
-                        <p>Phone: <a href="tel:512-876-0923" class="link">(512) 876-0923</a></p>
-                        <p>Email: <a href="mailto:astewart1138@gmail.com" class="link">astewart1138@gmail.com</a></p>
+                        <div class="collapse" id="readMore">
+                            <p>Now, in college, all I focus on is programming, especially Web Development and Design. My goal in the next five years is to become a certified Full-Stack Web Developer, so I can help people fulfill their goals digitally. I have already begun a course through <a href="https://www.codecademy.com/catalog" target="_blank" class="link">Codecademy</a>&copy; that offers certification in Full-Stack Web Development and other web-dev languages.</p>
+                            <p>I also want to become a good husband and father for my future family. I want to raise my children on good, wholesome principles, so they grow up to seek challenges, grow from experience, and help others do the same.</p>
+                            <p>When I'm not building a website, I thoroughly enjoy calisthenics, reading Brandon Sanderson novels or Calvin and Hobbes&copy; comics, and spending time with family. I also enjoy hanging out with friends on weekends. We always have something fun happening on Monday evenings.</p>
+                            <p>Thank you again for taking time to view my portfolio! Below, I have listed my educational and work experience as well as volunteer opportunities I have participated in. If you have any questions, please feel free to reach out!</p>
+                            <p>Phone: <a href="tel:512-876-0923" class="link">(512) 876-0923</a></p>
+                            <p>Email: <a href="mailto:astewart1138@gmail.com" class="link">astewart1138@gmail.com</a></p>
+                        </div>
+                        <button class="btn btn-primary readMore" type="button" data-bs-toggle="collapse" data-bs-target="#readMore" aria-expanded="false" aria-controls="readMore" id="readMoreButton">
+                            Read more...
+                        </button>
                     </div>
                     <div class="col-md-3"></div>
                 </div>
@@ -126,5 +131,6 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./js/index.js"></script>
 </body>
 </html>
