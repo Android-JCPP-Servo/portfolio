@@ -7,7 +7,7 @@ const myChart = new Chart(ctx, {
         labels: ['HTML5', 'CSS3', 'JavaScript/React', 'PHP', 'MySQL'],
         datasets: [{
             label: 'Coding Experience',
-            data: [100, 100, 5, 0, 0],
+            data: [100, 100, 5, 100, 0],
             backgroundColor: [
                 'rgba(241, 89, 49, 0.2)',
                 'rgba(0, 125, 198, 0.2)',
