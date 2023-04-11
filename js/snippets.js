@@ -29,4 +29,4 @@ const includeHTMLSnippet = () => {
     }
 }
 
-includeHTMLSnippet();
+includeHTMLSnippet(); // Navbar
